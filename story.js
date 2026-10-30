@@ -466,15 +466,28 @@ const requested = new URLSearchParams(location.search).get('title')?.trim();
 if (requested) input.value = requested.slice(0, 80);
 if (requested && requested.length >= 2 && requested.length <= 80) {
   window.storyGridScan?.start();
-  window.SagukStatic.storyFor(requested).then((data) => {
+  let requestTimeout = 0;
+  const storyRequest = Promise.resolve().then(() => {
+    if (typeof window.SagukStatic?.storyFor !== 'function') {
+      throw new Error('작품 자료를 불러오지 못했습니다. 페이지를 새로고침한 뒤 다시 시도해 주세요.');
+    }
+    return window.SagukStatic.storyFor(requested);
+  }).then((data) => {
     if (!data) throw new Error('작품 자료를 찾지 못했습니다.');
     return data;
-  })
-    .then((data) => { renderStory(data); window.storyGridScan?.stop(); })
+  });
+  const requestDeadline = new Promise((resolve, reject) => {
+    requestTimeout = window.setTimeout(() => reject(new Error('역사 자료 응답이 늦어지고 있습니다. 검색어를 확인하거나 다시 검색해 주세요.')), 15000);
+  });
+  Promise.race([storyRequest, requestDeadline])
+    .then((data) => { renderStory(data); })
     .catch((error) => {
-      window.storyGridScan?.stop();
       $('#story-empty').hidden = false;
       $('#story-empty p').textContent = error instanceof Error ? error.message : '검색 결과가 없습니다.';
+    })
+    .finally(() => {
+      window.clearTimeout(requestTimeout);
+      window.storyGridScan?.stop();
     });
 }
 
