@@ -241,6 +241,30 @@ async function readJson(request, maxBytes = 4096) {
 let discoveredVoiceId = '';
 let discoveredVoiceExpiresAt = 0;
 
+function elevenLabsErrorMessage(status, code = '') {
+  const reason = String(code || '').toLowerCase();
+  if (status === 401 || /invalid_api_key|authentication_error/u.test(reason)) {
+    return 'ElevenLabs API 키가 유효하지 않습니다. Worker의 ELEVENLABS_API_KEY 설정을 확인해 주세요.';
+  }
+  if (status === 402 || /quota_exceeded|insufficient_credits|payment_required/u.test(reason)) {
+    return 'ElevenLabs 크레딧 또는 사용 한도가 부족합니다. 계정의 사용량과 플랜 한도를 확인해 주세요.';
+  }
+  if (status === 403 || /authorization_error|feature_not_available|model_access_denied/u.test(reason)) {
+    return '현재 ElevenLabs 플랜에서 이 음성 또는 모델을 사용할 수 없습니다. 음성 권한 설정을 확인해 주세요.';
+  }
+  if (status === 404 || /voice_not_found|not_found/u.test(reason)) {
+    return '설정한 ElevenLabs 음성을 찾지 못했습니다. ELEVENLABS_VOICE_ID를 확인해 주세요.';
+  }
+  if (status === 429 || /rate_limit|concurrent_limit|system_busy/u.test(reason)) {
+    return 'ElevenLabs 음성 요청이 일시적으로 많습니다. 잠시 기다렸다가 다시 시도해 주세요.';
+  }
+  if (status === 400 || status === 422 || /validation_error|invalid_voice_id|unsupported_model/u.test(reason)) {
+    return 'ElevenLabs 음성 요청 설정을 확인할 수 없습니다. 음성 ID와 모델 설정을 확인해 주세요.';
+  }
+  if (status >= 500) return 'ElevenLabs 음성 서비스가 일시적으로 응답하지 않습니다. 잠시 후 다시 시도해 주세요.';
+  return 'ElevenLabs에서 음성을 만들지 못했습니다. Worker와 ElevenLabs 설정을 확인해 주세요.';
+}
+
 async function getVoiceId(env) {
   if (env.ELEVENLABS_VOICE_ID) return env.ELEVENLABS_VOICE_ID;
   if (discoveredVoiceId && Date.now() < discoveredVoiceExpiresAt) return discoveredVoiceId;
@@ -286,8 +310,10 @@ async function voice(request, env) {
   let voiceId;
   try { voiceId = await getVoiceId(env); }
   catch (error) {
-    console.error('ELEVENLABS_VOICE_UNAVAILABLE', error instanceof Error ? error.message : 'unknown');
-    return json({ error: '사용할 음성을 찾지 못했습니다. ElevenLabs 계정에 이용 가능한 음성이 있는지 확인해 주세요.' }, 502);
+    const reason = error instanceof Error ? error.message : 'unknown';
+    const status = Number(reason.match(/^VOICE_LIST_(\d{3})$/u)?.[1] || 0);
+    console.error('ELEVENLABS_VOICE_UNAVAILABLE', reason);
+    return json({ error: status ? elevenLabsErrorMessage(status) : 'ElevenLabs 음성 목록에 연결하지 못했습니다. Worker의 네트워크와 API 키 설정을 확인해 주세요.' }, 502);
   }
   const hashInput = new TextEncoder().encode(`${voiceId}\n${modelId}\n${text}`);
   const digest = await crypto.subtle.digest('SHA-256', hashInput);
@@ -316,8 +342,11 @@ async function voice(request, env) {
     return json({ error: '해설 음성 연결에 실패했습니다. 잠시 후 다시 시도해 주세요.' }, 502);
   }
   if (!response.ok) {
-    console.error('ELEVENLABS_TTS_REJECTED', response.status);
-    return json({ error: '해설 음성을 만들지 못했습니다. 운영자의 ElevenLabs 설정을 확인해 주세요.' }, 502);
+    const payload = await response.json().catch(() => null);
+    const detail = payload?.detail;
+    const code = typeof detail === 'string' ? detail : detail?.code || detail?.status || detail?.type || '';
+    console.error('ELEVENLABS_TTS_REJECTED', response.status, String(code || 'unknown'));
+    return json({ error: elevenLabsErrorMessage(response.status, code) }, 502);
   }
   const audio = await response.arrayBuffer();
   const headers = { 'content-type': 'audio/mpeg', 'cache-control': 'public, max-age=31536000, immutable', 'x-content-type-options': 'nosniff' };

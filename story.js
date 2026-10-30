@@ -106,15 +106,30 @@ async function playNarration(button) {
     let audioUrl = voiceAudioCache.get(key);
     if (!audioUrl) {
       const apiBase = String(window.SAGUK_VOICE_API_BASE || '').trim();
+      if (location.protocol === 'file:') {
+        throw new Error('파일을 직접 열어서는 음성을 만들 수 없습니다. 웹사이트 주소로 접속해 주세요.');
+      }
+      if (!apiBase && location.hostname.toLowerCase().endsWith('github.io')) {
+        throw new Error('음성 서버 주소가 연결되지 않았습니다. ElevenLabs Worker를 배포하고 voice-config.js에 주소를 설정해야 합니다.');
+      }
       const endpoint = apiBase ? new URL('/api/voice', apiBase).href : '/api/voice';
-      const response = await fetch(endpoint, {
-        method: 'POST',
-        headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ title: activeStory.title, chapterIndex, kind }),
-      });
+      let response;
+      try {
+        response = await fetch(endpoint, {
+          method: 'POST',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify({ title: activeStory.title, chapterIndex, kind }),
+        });
+      } catch {
+        throw new Error('음성 서버에 연결하지 못했습니다. Worker 주소와 허용 사이트 설정을 확인해 주세요.');
+      }
       if (!response.ok) {
-        const data = await response.json().catch(() => ({}));
-        throw new Error(data.error || '음성을 만들지 못했습니다.');
+        const data = await response.json().catch(() => null);
+        if (typeof data?.error === 'string' && data.error) throw new Error(data.error);
+        if (response.status === 404 || response.status === 405) {
+          throw new Error('음성 API를 찾지 못했습니다. Worker가 배포되었는지, 주소가 맞는지 확인해 주세요.');
+        }
+        throw new Error(`음성 서버 오류(${response.status})가 발생했습니다. 잠시 후 다시 시도해 주세요.`);
       }
       const blob = await response.blob();
       if (!blob.type.startsWith('audio/')) throw new Error('음성 파일을 확인하지 못했습니다.');
