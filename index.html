@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="드라마의 역사 배경을 읽고, 배우고 싶은 시대를 담은 사극을 찾아보세요." />
+    <title>사극의 뒤편 — 드라마에서 역사로</title>
+    <link rel="stylesheet" href="./styles.css?v=20261030o" />
+    <script defer src="./particle-drift.js?v=20261029v"></script>
+    <script defer src="./flying-posters.js?v=20261029v"></script>
+    <script defer src="./grid-scan.js?v=20261030g"></script>
+    <script defer src="./gallery.js?v=20261030v2"></script>
+    <script defer src="./static-data.js"></script>
+    <script defer src="./home.js?v=20261030v13"></script>
+    <script defer src="./tech-text.js?v=20261030v5"></script>
+    <script defer src="./swarm-cursor.js?v=20261029v2"></script>
+    <script defer src="./motion.js?v=20261029v"></script>
+    <script defer src="./flux-lines.js?v=20261029v"></script>
+  </head>
+  <body class="page-home">
+    <a class="skip-link" href="#main-content">본문으로 건너뛰기</a>
+    <div class="site-shell home-shell">
+      <header class="site-header home-header">
+        <a class="brand" href="./index.html" aria-label="사극의 뒤편, 처음으로">
+          <span class="brand-seal" aria-hidden="true">史</span>
+          <span class="brand-words"><strong>사극의 뒤편</strong></span>
+        </a>
+        <nav class="desktop-nav" aria-label="주 메뉴">
+          <a href="./drama.html" data-page="drama">드라마 배경 확인</a>
+          <a href="./recommend.html" data-page="period">시대별 작품 추천</a>
+        </nav>
+        <a class="header-action" href="./drama.html">탐색 시작 <span aria-hidden="true">↘</span></a>
+        <details class="mobile-menu"><summary aria-label="메뉴 열기">메뉴 <span aria-hidden="true">☰</span></summary>
+          <nav aria-label="모바일 메뉴"><a href="./drama.html">드라마 배경 확인</a><a href="./recommend.html">시대별 작품 추천</a></nav>
+        </details>
+      </header>
+
+      <main id="main-content">
+        <section id="home-hero" class="home-soda-hero" data-home-mode="drama" aria-labelledby="home-title">
+          <canvas id="hero-particles" class="home-particles" aria-hidden="true"></canvas>
+          <div class="home-flux" data-flux-lines="dark" aria-hidden="true"></div>
+          <div class="home-grain" aria-hidden="true"></div>
+          <span class="home-hero-seal" data-shadow-play="史" aria-hidden="true">史</span>
+
+          <div class="home-hero-layout">
+            <div class="home-hero-copy">
+              <h1 id="home-title" class="home-tech-title" aria-label="사극의 뒤편">
+                <span class="home-tech-title-fallback" aria-hidden="true">사극의 뒤편</span>
+                <canvas id="home-tech-canvas" aria-hidden="true"></canvas>
+              </h1>
+              <p id="home-title-accent" class="home-title-accent">드라마에서 역사를 만나다</p>
+              <nav class="home-mode-carousel" aria-label="서비스 바로가기">
+                <a class="home-mode-card" href="./drama.html"><span class="home-mode-index">01</span><strong>드라마 배경 확인</strong><b aria-hidden="true">↗</b></a>
+                <a class="home-mode-card" href="./recommend.html"><span class="home-mode-index">02</span><strong>시대별 작품 찾기</strong><b aria-hidden="true">↗</b></a>
+              </nav>
+            </div>
+
+            <div class="home-hero-stage" id="hero-carousel" role="region" aria-roledescription="회전형 캐러셀" aria-label="한국의 대표 인물과 역사 사건 이미지. 마우스로 좌우 드래그하거나 트랙패드에서 두 손가락으로 좌우 스와이프해 둘러보세요." tabindex="0">
+              <div class="home-carousel-cylinder" id="hero-carousel-cylinder">
+                <button class="home-portrait-card is-current" type="button" data-portrait-index="0" data-source="https://commons.wikimedia.org/wiki/File:%EC%84%B8%EC%A2%85%EB%8C%80%EC%99%95_%EC%96%B4%EC%A7%84.png" data-source-name="세종대왕사가독서기념사업회 · 저작권 제한 없는 자유 이용" aria-current="true" aria-label="세종대왕, 1397년부터 1450년. 초상 선택">
+                  <span class="home-portrait-image"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/%EC%84%B8%EC%A2%85%EB%8C%80%EC%99%95_%EC%96%B4%EC%A7%84.png/500px-%EC%84%B8%EC%A2%85%EB%8C%80%EC%99%95_%EC%96%B4%EC%A7%84.png" alt="세종대왕 초상" fetchpriority="high" /></span>
+                  <span class="home-portrait-caption"><small>1397 — 1450 · 조선</small><strong>세종대왕</strong></span>
+                </button>
+                <button class="home-portrait-card" type="button" data-portrait-index="1" data-source="https://commons.wikimedia.org/wiki/File:%EC%9D%B4%EC%88%9C%EC%8B%A0.jpg" data-source-name="동아대학교 박물관 · 저작권 보호기간 만료" aria-current="false" aria-label="이순신, 1545년부터 1598년. 초상 선택">
+                  <span class="home-portrait-image"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/%EC%9D%B4%EC%88%9C%EC%8B%A0.jpg" alt="이순신 초상" loading="lazy" /></span>
+                  <span class="home-portrait-caption"><small>1545 — 1598 · 조선</small><strong>이순신</strong></span>
+                </button>
+                <button class="home-portrait-card" type="button" data-portrait-index="2" data-source="https://commons.wikimedia.org/wiki/File:Jeong_Yak-yong.jpg" data-source-name="공유마당 · 저작권 보호기간 만료" aria-current="false" aria-label="정약용, 1762년부터 1836년. 초상 선택">
+                  <span class="home-portrait-image"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Jeong_Yak-yong.jpg/500px-Jeong_Yak-yong.jpg" alt="정약용 초상" loading="lazy" /></span>
+                  <span class="home-portrait-caption"><small>1762 — 1836 · 조선</small><strong>정약용</strong></span>
+                </button>
+                <button class="home-portrait-card" type="button" data-portrait-index="3" data-source="https://commons.wikimedia.org/wiki/File:Portrait_of_Gojong_01.jpg" data-source-name="국립전주박물관 · 저작권 보호기간 만료" aria-current="false" aria-label="고종, 1852년부터 1919년. 초상 선택">
+                  <span class="home-portrait-image"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Portrait_of_Gojong_01.jpg" alt="고종 초상" loading="lazy" /></span>
+                  <span class="home-portrait-caption"><small>1852 — 1919 · 대한제국</small><strong>고종</strong></span>
+                </button>
+                <button class="home-portrait-card" type="button" data-portrait-index="4" data-source="https://commons.wikimedia.org/wiki/File:Ryu_Gwan-sun.jpg" data-source-name="인물카드 · 저작권 보호기간 만료" aria-current="false" aria-label="유관순, 1902년부터 1920년. 초상 선택">
+                  <span class="home-portrait-image"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Ryu_Gwan-sun.jpg/500px-Ryu_Gwan-sun.jpg" alt="유관순 사진" loading="lazy" /></span>
+                  <span class="home-portrait-caption"><small>1902 — 1920 · 일제강점기</small><strong>유관순</strong></span>
+                </button>
+                <button class="home-portrait-card" type="button" data-portrait-index="5" data-source="https://commons.wikimedia.org/wiki/File:Kim_Si-seup.jpg" data-source-name="문화재청 · 저작권 보호기간 만료" aria-current="false" aria-label="김시습, 1435년부터 1493년. 초상 선택">
+                  <span class="home-portrait-image"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/King%20JeongJo%20of%20Joseon.jpg?width=700" alt="조선 제22대 왕 정조의 초상" loading="lazy" /></span>
+                  <span class="home-portrait-caption"><small>1752 — 1800 · 조선</small><strong>정조</strong></span>
+                </button>
+                <button class="home-portrait-card" type="button" data-portrait-index="6" data-source="https://commons.wikimedia.org/wiki/File:Korea-Yeongjo-King_of_Joseon-c1.jpg" data-source-name="문화재 정보센터 · 저작권 보호기간 만료" aria-current="false" aria-label="영조, 1694년부터 1776년. 초상 선택">
+                  <span class="home-portrait-image"><img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Korea-Yeongjo-King_of_Joseon-c1.jpg" alt="영조 어진" loading="lazy" /></span>
+                  <span class="home-portrait-caption"><small>1694 — 1776 · 조선</small><strong>영조</strong></span>
+                </button>
+                <button class="home-portrait-card" type="button" data-portrait-index="7" data-source="https://commons.wikimedia.org/wiki/File:Kim_Hongdo.jpg" data-source-name="김홍도 자화상 · 저작권 보호기간 만료" aria-current="false" aria-label="김홍도, 1745년부터 1806년. 초상 선택">
+                  <span class="home-portrait-image"><img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Kim_Hongdo.jpg" alt="김홍도가 그린 자화상" loading="lazy" /></span>
+                  <span class="home-portrait-caption"><small>1745 — 1806 · 조선</small><strong>김홍도</strong></span>
+                </button>
+                <button class="home-portrait-card" type="button" data-portrait-index="8" data-source="https://commons.wikimedia.org/wiki/File:Kim_Okgyun.JPG" data-source-name="위키백과 사용자 자료 · 크리에이티브 커먼즈 저작자표시·동일조건변경허락 2.5" aria-current="false" aria-label="김옥균, 1851년부터 1894년. 초상 선택">
+                  <span class="home-portrait-image"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Kim_Okgyun.JPG" alt="김옥균 초상" loading="lazy" /></span>
+                  <span class="home-portrait-caption"><small>1851 — 1894 · 개화기</small><strong>김옥균</strong></span>
+                </button>
+                <button class="home-portrait-card" type="button" data-portrait-index="9" data-source="https://commons.wikimedia.org/wiki/File:An_Jung-geun.JPG" data-source-name="위키미디어 공용 · 저작권 보호기간 만료" aria-current="false" aria-label="안중근, 1879년부터 1910년. 초상 선택">
+                  <span class="home-portrait-image"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/An_Jung-geun.JPG" alt="안중근 사진" loading="lazy" /></span>
+                  <span class="home-portrait-caption"><small>1879 — 1910 · 대한제국</small><strong>안중근</strong></span>
+                </button>
+                <button class="home-portrait-card" type="button" data-portrait-index="10" data-source="https://commons.wikimedia.org/wiki/File:Kim_Gu_in_1949.jpg" data-source-name="위키미디어 공용 · 저작권 보호기간 만료" aria-current="false" aria-label="김구, 1876년부터 1949년. 초상 선택">
+                  <span class="home-portrait-image"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Kim_Gu_in_1949.jpg/500px-Kim_Gu_in_1949.jpg" alt="김구 사진" loading="lazy" /></span>
+                  <span class="home-portrait-caption"><small>1876 — 1949 · 독립운동</small><strong>김구</strong></span>
+                </button>
+              </div>
+              <div class="home-carousel-controls" aria-label="인물과 역사 사건">
+                <span class="home-portrait-count"><b id="home-portrait-count">01</b><i>/</i><span id="home-portrait-total">11</span></span>
+              </div>
+              <a id="home-portrait-source" class="home-portrait-source" href="https://commons.wikimedia.org/wiki/File:%EC%84%B8%EC%A2%85%EB%8C%80%EC%99%95_%EC%96%B4%EC%A7%84.png" target="_blank" rel="noopener noreferrer">초상 출처 · 위키미디어 공용 ↗</a>
+            </div>
+          </div>
+          <a class="home-scroll-cue" href="#home-drama-samples" aria-label="작품 예시 보기"><b aria-hidden="true">↓</b></a>
+        </section>
+
+        <section id="home-drama-samples" class="home-sample-section" aria-labelledby="home-samples-title">
+          <div class="home-section-heading home-sample-heading"><div><h2 id="home-samples-title">드라마에서 역사 찾기</h2></div></div>
+          <div id="home-drift-wall" class="drift-wall" data-visual="drift" role="group" aria-label="겹쳐 흐르는 사극 포스터. 포스터를 선택해 역사 배경을 확인하세요.">
+            <p class="drift-wall__loading" role="status">작품 포스터를 불러오는 중…</p>
+          </div>
+        </section>
+
+        <section id="home-era-finder" class="home-era-section" aria-labelledby="home-era-title">
+          <div class="home-section-heading home-era-heading"><div><h2 id="home-era-title">시대별 작품 찾기</h2></div></div>
+          <div class="era-gallery home-era-gallery" aria-label="역사 시대 선택" data-default-index="2">
+            <article class="era-panel" data-era="삼국 시대">
+              <button class="era-panel-trigger" type="button" aria-expanded="false" aria-label="삼국 시대 설명 보기">
+                <span class="era-panel-card"><span class="era-panel-face era-panel-front"><img src="./assets/eras/three-kingdoms.jpg" alt="" loading="lazy" /><span class="era-panel-overlay"></span><strong>삼국 시대</strong><em>고구려 · 백제 · 신라</em></span><span class="era-panel-face era-panel-back"><small>기원전 1세기–668년</small><strong>세 나라의 성장과 경쟁</strong><span>세 나라의 경쟁과 동맹, 신라의 통일.</span></span></span>
+              </button>
+              <a class="era-panel-action" href="./recommend.html?period=%EC%82%BC%EA%B5%AD%20%EC%8B%9C%EB%8C%80">이 시대 작품 찾기 ↗</a>
+            </article>
+            <article class="era-panel" data-era="고려 시대">
+              <button class="era-panel-trigger" type="button" aria-expanded="false" aria-label="고려 시대 설명 보기">
+                <span class="era-panel-card"><span class="era-panel-face era-panel-front"><img src="./assets/eras/goryeo.jpg" alt="" loading="lazy" /><span class="era-panel-overlay"></span><strong>고려 시대</strong><em>고려 · 918—1392</em></span><span class="era-panel-face era-panel-back"><small>918–1392년</small><strong>통일 왕조와 열린 교류</strong><span>불교 문화와 주변 국가와의 교류.</span></span></span>
+              </button>
+              <a class="era-panel-action" href="./recommend.html?period=%EA%B3%A0%EB%A0%A4%20%EC%8B%9C%EB%8C%80">이 시대 작품 찾기 ↗</a>
+            </article>
+            <article class="era-panel is-active" data-era="조선 시대">
+              <button class="era-panel-trigger" type="button" aria-expanded="false" aria-label="조선 시대 설명 보기">
+                <span class="era-panel-card"><span class="era-panel-face era-panel-front"><img src="./assets/eras/joseon.jpg" alt="" loading="lazy" /><span class="era-panel-overlay"></span><strong>조선 시대</strong><em>조선 · 1392—1897</em></span><span class="era-panel-face era-panel-back"><small>1392–1897년</small><strong>기록으로 읽는 왕조의 시간</strong><span>훈민정음 창제와 영조·정조의 개혁.</span></span></span>
+              </button>
+              <a class="era-panel-action" href="./recommend.html?period=%EC%A1%B0%EC%84%A0%20%EC%8B%9C%EB%8C%80">이 시대 작품 찾기 ↗</a>
+            </article>
+            <article class="era-panel" data-era="개항기">
+              <button class="era-panel-trigger" type="button" aria-expanded="false" aria-label="개항기 설명 보기">
+                <span class="era-panel-card"><span class="era-panel-face era-panel-front"><img src="./assets/eras/open-port.jpg" alt="" loading="lazy" /><span class="era-panel-overlay"></span><strong>개항기</strong><em>개항기 · 1876—1910</em></span><span class="era-panel-face era-panel-back"><small>1876–1910년</small><strong>새로운 질서와 선택</strong><span>개항과 근대화, 외세의 압력.</span></span></span>
+              </button>
+              <a class="era-panel-action" href="./recommend.html?period=%EA%B0%9C%ED%95%AD%EA%B8%B0">이 시대 작품 찾기 ↗</a>
+            </article>
+            <article class="era-panel" data-era="대한제국">
+              <button class="era-panel-trigger" type="button" aria-expanded="false" aria-label="대한제국 설명 보기">
+                <span class="era-panel-card"><span class="era-panel-face era-panel-front"><img src="./assets/eras/korean-empire.jpg" alt="" loading="lazy" /><span class="era-panel-overlay"></span><strong>대한제국</strong><em>대한제국 · 1897—1910</em></span><span class="era-panel-face era-panel-back"><small>1897–1910년</small><strong>독립을 지키려 한 시대</strong><span>국권 수호와 의병 활동.</span></span></span>
+              </button>
+              <a class="era-panel-action" href="./recommend.html?period=%EB%8C%80%ED%95%9C%EC%A0%9C%EA%B5%AD">이 시대 작품 찾기 ↗</a>
+            </article>
+          </div>
+        </section>
+      </main>
+      <footer class="home-footer"><span class="footer-brand">史 <strong>사극의 뒤편</strong></span><span>© 2026 사극의 뒤편</span></footer>
+    </div>
+    <div id="story-loader" class="story-loader home-transition" hidden aria-live="polite" aria-label="검색 화면 전환 중">
+      <canvas id="story-loader-canvas" class="grid-scan-canvas" aria-hidden="true"></canvas>
+      <div class="story-loader-copy"><span>기록의 장을 여는 중</span><small>기록의 울림 · 史</small></div>
+    </div>
+  </body>
+</html>

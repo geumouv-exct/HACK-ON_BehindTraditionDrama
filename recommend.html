@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="배우고 싶은 한국사의 주제를 바탕으로 관련 한국 사극을 찾아봅니다." />
+  <title>시대별 작품 추천 — 사극의 뒤편</title>
+  <link rel="stylesheet" href="./styles.css?v=20261030o" />
+  <script defer src="./gallery.js?v=20261029v"></script>
+  <script defer src="./static-data.js"></script>
+  <script defer src="./recommend.js?v=20261030c"></script>
+  <script defer src="./keyword-menu.js?v=20261030a"></script>
+  <script defer src="./motion.js?v=20261029v"></script>
+  <script defer src="./flux-lines.js?v=20261029v"></script>
+  <script defer src="./soda-atmosphere.js?v=20261029v"></script>
+  <script defer src="./swarm-cursor.js?v=20261029v2"></script>
+</head>
+<body class="page-recommend">
+  <a class="skip-link" href="#main-content">본문으로 건너뛰기</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="./index.html" aria-label="사극의 뒤편, 첫 화면으로"><span class="brand-seal" aria-hidden="true">史</span><span class="brand-words"><strong>사극의 뒤편</strong></span></a>
+      <nav class="desktop-nav" aria-label="주 메뉴">
+        <a href="./index.html" data-page="home">홈</a>
+        <a href="./drama.html" data-page="drama">드라마 배경 확인</a>
+        <a href="./recommend.html" data-page="recommend" aria-current="page">시대별 작품 추천</a>
+      </nav>
+      <details class="mobile-menu"><summary aria-label="메뉴 열기">메뉴 <span aria-hidden="true">☰</span></summary><nav aria-label="모바일 메뉴">
+        <a href="./index.html">홈</a><a href="./drama.html">드라마 배경 확인</a><a href="./recommend.html" aria-current="page">시대별 작품 추천</a>
+      </nav></details>
+    </header>
+    <main id="main-content">
+      <section class="ai-stage" aria-label="시대별 작품 추천">
+        <div class="flux-lines" data-flux-lines="light" aria-hidden="true"></div>
+        <div class="soda-atmosphere" aria-hidden="true"><div class="soda-atmosphere-glow"></div><div class="soda-atmosphere-bubbles"></div></div>
+        <div class="ai-page-content">
+          <section class="ai-panel recommend-layout" aria-label="역사 주제로 작품 찾기">
+            <div class="keyword-drawer" id="keyword-drawer" data-open="false">
+              <button class="keyword-drawer-trigger" type="button" aria-controls="keyword-sidebar" aria-expanded="false" aria-label="시대별 키워드 열기">시대 키워드</button>
+            <aside class="keyword-sidebar" id="keyword-sidebar" aria-labelledby="keyword-sidebar-title" aria-hidden="true" inert>
+              <h2 id="keyword-sidebar-title">시대별 키워드</h2>
+              <p>키워드를 누르면 관련 작품을 찾아요.</p>
+              <nav id="recommend-keyword-menu" class="branched-menu" aria-label="시대별 검색 키워드">
+                <p class="keyword-menu-loading" role="status">키워드를 불러오는 중…</p>
+              </nav>
+            </aside>
+            </div>
+            <div class="ai-panel-work">
+              <form id="recommend-form" class="ai-form"><label for="period-input">역사 주제</label><div class="ai-input-row"><input id="period-input" name="period" type="text" maxlength="80" required placeholder="예: 조선 세종의 훈민정음 창제" autocomplete="off" /><button type="submit">관련 작품 찾기 <span aria-hidden="true">↗</span></button></div></form>
+              <div class="ai-examples" aria-label="검색 예시"><span>예시</span><button type="button" data-period-example="세종과 훈민정음">세종과 훈민정음</button><button type="button" data-period-example="고려에서 조선으로">고려에서 조선으로</button><button type="button" data-period-example="임진왜란">임진왜란</button></div>
+              <p id="recommend-status" class="ai-status" role="status" aria-live="polite" hidden></p>
+              <div id="recommend-result" class="ai-result" hidden></div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+    <footer><span class="footer-brand">史 <strong>사극의 뒤편</strong></span><span>© 2026 사극의 뒤편</span></footer>
+  </div>
+</body>
+</html>

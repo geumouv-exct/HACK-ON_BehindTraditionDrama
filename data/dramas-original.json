@@ -1,0 +1,900 @@
+[
+  {
+    "title": "주몽",
+    "period": "고구려 건국 전후",
+    "range": "기원전 1세기",
+    "keywords": [
+      "고구려",
+      "건국",
+      "삼국",
+      "주몽"
+    ],
+    "context": "부여와 초기 고구려가 등장하는 고대사의 건국 서사를 다룬다.",
+    "note": "고대 건국 설화와 극적 상상을 구분해 읽어야 한다.",
+    "posterUrl": "https://i.gawby.com/mjaymw/mdm/mjm/mtk/mda/j/u/o/jumong-tv-series-poster-266017454899.jpg",
+    "posterSourceUrl": "https://www.gawby.com/tvshows/4949388/fullcredits",
+    "posterSourceName": "Gawby · MBC 포스터",
+    "synopsis": "부여에서 자란 주몽이 왕실의 권력 다툼을 겪고, 소서노와 여러 동료의 도움을 받아 고구려를 세우는 과정을 그린다.",
+    "mainCharacters": [
+      {
+        "name": "주몽",
+        "role": "고구려 건국을 이끄는 왕자"
+      },
+      {
+        "name": "소서노",
+        "role": "새 나라 건국을 돕는 세력가"
+      },
+      {
+        "name": "해모수",
+        "role": "주몽의 아버지로 설정된 인물"
+      },
+      {
+        "name": "금와왕",
+        "role": "부여의 왕"
+      },
+      {
+        "name": "대소",
+        "role": "부여의 왕자"
+      }
+    ],
+    "historyConnection": "전승·설화와 실존 인물 혼합",
+    "comparisonNote": "전승 기록과 설화 요소가 함께 전한다. 기록에 적힌 행적과 후대 설화·드라마의 세부 설정을 나누어 읽는다.",
+    "storyAnchor": "주몽",
+    "posterFallbackUrls": []
+  },
+  {
+    "title": "광개토태왕",
+    "period": "고구려 광개토왕 시대",
+    "range": "4세기 말~5세기 초",
+    "keywords": [
+      "고구려",
+      "광개토",
+      "삼국",
+      "영토"
+    ],
+    "context": "고구려의 세력 확대와 광개토왕 시대를 배경으로 한다.",
+    "note": "전투와 인물 관계의 세부 묘사는 극의 구성일 수 있다.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/v2HPWydGyCFiMAh1PdIcfVrx8O9.jpg",
+    "posterSourceUrl": "https://watch.plex.tv/show/gwanggaeto-the-great-conqueror",
+    "posterSourceName": "Plex",
+    "synopsis": "고구려 왕자 담덕이 왕위에 올라 주변 세력과 맞서며 고구려의 영토를 넓혀 가는 과정을 그린다.",
+    "mainCharacters": [
+      {
+        "name": "담덕(광개토왕)",
+        "role": "고구려의 왕"
+      },
+      {
+        "name": "연호개",
+        "role": "왕위 경쟁자로 그려지는 인물"
+      },
+      {
+        "name": "고운",
+        "role": "담덕을 돕는 인물"
+      },
+      {
+        "name": "아신왕",
+        "role": "백제의 왕"
+      }
+    ],
+    "historyConnection": "실존 인물·사건 중심",
+    "comparisonNote": "실존 인물과 사건을 중심으로 하지만, 사적 대화·감정·사건의 세부 순서는 기록과 드라마를 대조해야 한다.",
+    "storyAnchor": "광개토태왕"
+  },
+  {
+    "title": "선덕여왕",
+    "period": "신라 선덕여왕 시대",
+    "range": "7세기",
+    "keywords": [
+      "신라",
+      "선덕여왕",
+      "삼국",
+      "삼국통일"
+    ],
+    "context": "신라 최초의 여왕인 선덕여왕과 당시의 권력 구도를 배경으로 한다.",
+    "note": "가상 인물과 극적인 정치 대결을 역사 사실과 분리해야 한다.",
+    "posterUrl": "https://image.cine21.com/cine21/poster/2009/0513/M0010017_13-1.jpg",
+    "posterSourceUrl": "https://cine21.com/movie/info/?movie_id=26648",
+    "posterSourceName": "씨네21",
+    "synopsis": "덕만이 신라의 공주로 성장한 뒤 왕위에 오르고, 미실을 비롯한 귀족 세력과 대립하며 통치 기반을 다지는 과정을 그린다.",
+    "mainCharacters": [
+      {
+        "name": "덕만(선덕여왕)",
+        "role": "신라의 공주이자 왕"
+      },
+      {
+        "name": "미실",
+        "role": "궁중 권력을 쥔 귀족 여성"
+      },
+      {
+        "name": "김유신",
+        "role": "신라의 장군"
+      },
+      {
+        "name": "비담",
+        "role": "선덕여왕 말기의 정치 인물"
+      }
+    ],
+    "historyConnection": "실존 인물과 창작 서사 혼합",
+    "comparisonNote": "실존 인물·사건이 등장하지만, 중심 인물 관계나 사건의 동기·대화는 창작일 수 있다. 기록으로 확인되는 사실만 오른쪽 사료 설명에 표시한다.",
+    "storyAnchor": "선덕여왕",
+    "posterFallbackUrls": []
+  },
+  {
+    "title": "태조 왕건",
+    "period": "후삼국과 고려 건국",
+    "range": "9세기 말~10세기 초",
+    "keywords": [
+      "후삼국",
+      "고려",
+      "왕건",
+      "건국",
+      "통일"
+    ],
+    "context": "후삼국의 경쟁과 왕건의 고려 건국·통일 과정을 다룬다.",
+    "note": "인물의 대사와 전투 장면은 사료의 직접 기록이 아니다.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/65MbbOoGKkbwgMJD3QufjUr4O22.jpg",
+    "posterSourceUrl": "https://www.loomiin.com/shows/17039",
+    "posterSourceName": "Loomiin",
+    "synopsis": "궁예의 휘하에서 세력을 키운 왕건이 고려를 세우고, 후백제·신라와 대립하며 후삼국 통일을 추진하는 과정을 그린다.",
+    "mainCharacters": [
+      {
+        "name": "왕건",
+        "role": "고려를 세운 태조"
+      },
+      {
+        "name": "궁예",
+        "role": "후고구려의 왕"
+      },
+      {
+        "name": "견훤",
+        "role": "후백제의 왕"
+      },
+      {
+        "name": "신숭겸",
+        "role": "왕건을 섬긴 장수"
+      },
+      {
+        "name": "유금필",
+        "role": "고려의 장수"
+      }
+    ],
+    "historyConnection": "실존 인물·사건 중심",
+    "comparisonNote": "실존 인물과 사건을 중심으로 하지만, 사적 대화·감정·사건의 세부 순서는 기록과 드라마를 대조해야 한다.",
+    "storyAnchor": "태조 왕건"
+  },
+  {
+    "title": "고려 거란 전쟁",
+    "period": "고려 현종과 거란의 전쟁",
+    "range": "11세기 초",
+    "keywords": [
+      "고려",
+      "거란",
+      "현종",
+      "강감찬",
+      "귀주대첩"
+    ],
+    "context": "고려 현종 대의 거란 침입과 전쟁 대응을 다룬다.",
+    "note": "전쟁의 큰 흐름과 개별 인물의 대사·행동은 따로 확인해야 한다.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BYmJmMDNiYzQtODViZS00Njk4LThiYTgtNTUwZTFhNGNmN2VlXkEyXkFqcGc%40._V1_.jpg",
+    "posterSourceUrl": "https://www.imdb.com/title/tt26767539/mediaviewer/rm53629441/",
+    "posterSourceName": "IMDb",
+    "synopsis": "고려 현종과 강감찬을 중심으로 거란의 침입에 맞선 전쟁, 고려 조정의 대응, 전쟁 뒤의 외교를 그린다.",
+    "mainCharacters": [
+      {
+        "name": "현종",
+        "role": "고려 제8대 왕"
+      },
+      {
+        "name": "강감찬",
+        "role": "고려의 문신·장수"
+      },
+      {
+        "name": "양규",
+        "role": "거란 2차 침입 때 활약한 장수"
+      },
+      {
+        "name": "서희",
+        "role": "거란과 담판한 고려의 문신"
+      }
+    ],
+    "historyConnection": "실존 인물·사건 중심",
+    "comparisonNote": "실존 인물과 사건을 중심으로 하지만, 사적 대화·감정·사건의 세부 순서는 기록과 드라마를 대조해야 한다.",
+    "storyAnchor": "고려 거란 전쟁"
+  },
+  {
+    "title": "기황후",
+    "period": "고려 말과 원나라",
+    "range": "14세기",
+    "keywords": [
+      "고려",
+      "원나라",
+      "원",
+      "기황후",
+      "몽골"
+    ],
+    "context": "고려 출신 기황후가 원나라 황실에서 활동한 시대를 모티브로 한다.",
+    "note": "실제 인물과 시대를 사용하지만 가상 사건의 비중이 높다.",
+    "posterUrl": "https://3.bp.blogspot.com/-uk65dVg65KA/UmzExV-Jh_I/AAAAAAAAEGs/YyaRVY30Cm8/s1600/Empress-Ki-Poster1.jpg",
+    "posterSourceUrl": "https://muthma-drama.blogspot.com/2013/10/empress-ki.html",
+    "posterSourceName": "기황후 포스터 자료",
+    "synopsis": "고려 출신 기승냥이 원나라 궁정에서 권력의 중심으로 올라서고, 고려 왕으로 설정된 왕유와 원 황제 타환을 둘러싼 궁중 정치를 그린다.",
+    "mainCharacters": [
+      {
+        "name": "기승냥(기황후)",
+        "role": "고려 출신으로 원 황후가 되는 인물"
+      },
+      {
+        "name": "타환",
+        "role": "원나라 황제"
+      },
+      {
+        "name": "왕유",
+        "role": "고려 왕으로 설정된 인물"
+      },
+      {
+        "name": "연철",
+        "role": "원나라의 권력자"
+      }
+    ],
+    "historyConnection": "실존 인물·사건 중심",
+    "comparisonNote": "실존 인물과 사건을 중심으로 하지만, 사적 대화·감정·사건의 세부 순서는 기록과 드라마를 대조해야 한다.",
+    "storyAnchor": "기황후",
+    "posterFallbackUrls": []
+  },
+  {
+    "title": "정도전",
+    "period": "고려 말과 조선 건국",
+    "range": "14세기 말~15세기 초",
+    "keywords": [
+      "고려 말",
+      "조선 건국",
+      "정도전",
+      "태조",
+      "이성계"
+    ],
+    "context": "고려 말 정치 변화와 조선 건국 과정에서 정도전의 역할을 다룬다.",
+    "note": "정치적 선택의 동기와 대사는 극적 해석이 섞일 수 있다.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ApL3W5VStHo9U50ofwfuqQLJqmi.jpg",
+    "posterSourceUrl": "https://watch.plex.tv/show/jeong-do-jeon/season/1",
+    "posterSourceName": "Plex",
+    "synopsis": "정도전이 고려 말의 개혁을 추진하고 이성계와 함께 새 왕조 조선을 세우는 정치 과정을 다룬다.",
+    "mainCharacters": [
+      {
+        "name": "정도전",
+        "role": "조선 건국의 설계자"
+      },
+      {
+        "name": "이성계",
+        "role": "조선을 세운 태조"
+      },
+      {
+        "name": "정몽주",
+        "role": "고려 왕조를 지키려 한 문신"
+      },
+      {
+        "name": "이방원",
+        "role": "태조의 아들이자 후계 경쟁자"
+      }
+    ],
+    "historyConnection": "실존 인물·사건 중심",
+    "comparisonNote": "실존 인물과 사건을 중심으로 하지만, 사적 대화·감정·사건의 세부 순서는 기록과 드라마를 대조해야 한다.",
+    "storyAnchor": "정도전"
+  },
+  {
+    "title": "육룡이 나르샤",
+    "period": "고려 말과 조선 건국",
+    "range": "14세기 말~15세기 초",
+    "keywords": [
+      "고려 말",
+      "조선 건국",
+      "이방원",
+      "정도전",
+      "이성계"
+    ],
+    "context": "고려에서 조선으로 넘어가는 정치·사회 변화를 배경으로 한다.",
+    "note": "역사 인물과 창작 인물이 함께 등장한다.",
+    "posterUrl": "https://img.etoday.co.kr/pto_db/2015/09/20150928110823_720558_2211_3150.jpg",
+    "posterSourceUrl": "https://www.etoday.co.kr/news/view/1207005",
+    "posterSourceName": "이투데이",
+    "synopsis": "고려 말 이성계의 역성혁명과 조선 건국을 여섯 인물의 선택과 대립으로 재구성한다.",
+    "mainCharacters": [
+      {
+        "name": "이방원",
+        "role": "조선 태종이 되는 인물"
+      },
+      {
+        "name": "정도전",
+        "role": "새 왕조의 제도 설계자"
+      },
+      {
+        "name": "이성계",
+        "role": "조선의 태조"
+      },
+      {
+        "name": "분이",
+        "role": "민초를 대표하는 창작 인물"
+      },
+      {
+        "name": "무휼",
+        "role": "무사로 그려지는 창작 인물"
+      },
+      {
+        "name": "이방지",
+        "role": "무사로 그려지는 창작 인물"
+      }
+    ],
+    "historyConnection": "실존 인물과 창작 서사 혼합",
+    "comparisonNote": "실존 인물·사건이 등장하지만, 중심 인물 관계나 사건의 동기·대화는 창작일 수 있다. 기록으로 확인되는 사실만 오른쪽 사료 설명에 표시한다.",
+    "storyAnchor": "정도전",
+    "posterFallbackUrls": []
+  },
+  {
+    "title": "태종 이방원",
+    "period": "조선 건국과 태종 시대",
+    "range": "14세기 말~15세기 초",
+    "keywords": [
+      "조선 건국",
+      "태종",
+      "이방원",
+      "왕자의 난"
+    ],
+    "context": "조선 건국 이후 이방원의 권력 형성과 태종의 통치를 다룬다.",
+    "note": "사건의 전개와 인물 심리의 해석을 구분해 읽어야 한다.",
+    "posterUrl": "https://a.ksd-i.com/a/2022-01-21/139533-931873.jpg",
+    "posterSourceUrl": "https://www.koreastardaily.com/sc/news/139533",
+    "posterSourceName": "코리아스타데일리",
+    "synopsis": "이성계의 아들 이방원이 조선 건국과 두 차례 왕자의 난을 거쳐 왕권을 장악하고 태종으로 즉위하는 과정을 그린다.",
+    "mainCharacters": [
+      {
+        "name": "이방원",
+        "role": "조선 제3대 왕 태종"
+      },
+      {
+        "name": "이성계",
+        "role": "조선 태조"
+      },
+      {
+        "name": "원경왕후 민씨",
+        "role": "태종의 왕비"
+      },
+      {
+        "name": "정도전",
+        "role": "조선 건국의 공신이자 정치가"
+      }
+    ],
+    "historyConnection": "실존 인물·사건 중심",
+    "comparisonNote": "실존 인물과 사건을 중심으로 하지만, 사적 대화·감정·사건의 세부 순서는 기록과 드라마를 대조해야 한다.",
+    "storyAnchor": "정도전",
+    "posterFallbackUrls": []
+  },
+  {
+    "title": "대왕 세종",
+    "period": "조선 세종 시대",
+    "range": "15세기",
+    "keywords": [
+      "세종",
+      "훈민정음",
+      "집현전",
+      "조선 전기"
+    ],
+    "context": "세종의 통치와 조선 전기의 제도·학문·문자 창제를 배경으로 한다.",
+    "note": "구체적인 대사와 갈등 장면은 역사 기록과 다를 수 있다.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ra9D3Dzwwc8RRaADHwjxX0pguG7.jpg",
+    "posterSourceUrl": "https://watch.plex.tv/show/the-great-king-sejong",
+    "posterSourceName": "Plex",
+    "synopsis": "세종의 즉위와 통치, 집현전 운영, 훈민정음 창제 등 조선 전기의 국가 운영과 문화 정책을 그린다.",
+    "mainCharacters": [
+      {
+        "name": "세종",
+        "role": "조선 제4대 왕"
+      },
+      {
+        "name": "소헌왕후",
+        "role": "세종의 왕비"
+      },
+      {
+        "name": "장영실",
+        "role": "과학 기술자"
+      },
+      {
+        "name": "황희",
+        "role": "세종 대의 재상"
+      }
+    ],
+    "historyConnection": "실존 인물·사건 중심",
+    "comparisonNote": "실존 인물과 사건을 중심으로 하지만, 사적 대화·감정·사건의 세부 순서는 기록과 드라마를 대조해야 한다.",
+    "storyAnchor": "대왕 세종"
+  },
+  {
+    "title": "뿌리깊은 나무",
+    "period": "조선 세종 시대, 훈민정음 창제",
+    "range": "15세기",
+    "keywords": [
+      "세종",
+      "훈민정음",
+      "한글",
+      "집현전",
+      "조선 전기"
+    ],
+    "context": "훈민정음 창제 전후의 세종 시대를 극적 미스터리로 풀어낸다.",
+    "note": "살인 사건과 비밀 결사 등은 드라마의 장치로 읽어야 한다.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/tMEgXn1AnOiZ6FY3xQu9BKX5PFk.jpg",
+    "posterSourceUrl": "https://www.themoviedb.org/tv/41652/images/posters?language=ko-KR",
+    "posterSourceName": "TMDB",
+    "synopsis": "훈민정음 반포를 앞둔 궁궐에서 연쇄 살인 사건을 쫓는 강채윤과 세종의 문자 정책을 둘러싼 비밀 결사의 대립을 그린다.",
+    "mainCharacters": [
+      {
+        "name": "세종",
+        "role": "훈민정음 창제를 추진한 왕"
+      },
+      {
+        "name": "강채윤",
+        "role": "사건을 수사하는 창작 인물"
+      },
+      {
+        "name": "소이",
+        "role": "궁녀이자 창작 인물"
+      },
+      {
+        "name": "정기준",
+        "role": "비밀 결사의 수장으로 설정된 인물"
+      }
+    ],
+    "historyConnection": "실존 인물과 창작 서사 혼합",
+    "comparisonNote": "실존 인물·사건이 등장하지만, 중심 인물 관계나 사건의 동기·대화는 창작일 수 있다. 기록으로 확인되는 사실만 오른쪽 사료 설명에 표시한다.",
+    "storyAnchor": "대왕 세종"
+  },
+  {
+    "title": "장영실",
+    "period": "조선 세종 시대, 과학 기술",
+    "range": "15세기",
+    "keywords": [
+      "세종",
+      "장영실",
+      "과학",
+      "천문",
+      "조선 전기"
+    ],
+    "context": "세종 시대 장영실과 조선의 과학 기술 발전을 배경으로 한다.",
+    "note": "장영실의 생애 중 기록이 부족한 부분은 극적 상상일 수 있다.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BZTRhYzMyMGItMWNiOS00MzFjLWFjOGUtYjQyMjA3NWIxZTJmXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
+    "posterSourceUrl": "https://www.imdb.com/title/tt5321584/",
+    "posterSourceName": "IMDb",
+    "synopsis": "관노 출신 기술자 장영실이 세종의 후원을 받아 천문 관측 기구와 물시계 제작에 참여하는 과정을 그린다.",
+    "mainCharacters": [
+      {
+        "name": "장영실",
+        "role": "조선의 과학 기술자"
+      },
+      {
+        "name": "세종",
+        "role": "장영실을 등용한 왕"
+      },
+      {
+        "name": "장희제",
+        "role": "가족으로 설정된 인물"
+      }
+    ],
+    "historyConnection": "실존 인물·사건 중심",
+    "comparisonNote": "실존 인물과 사건을 중심으로 하지만, 사적 대화·감정·사건의 세부 순서는 기록과 드라마를 대조해야 한다.",
+    "storyAnchor": "장영실"
+  },
+  {
+    "title": "대장금",
+    "period": "조선 중종 시대",
+    "range": "16세기",
+    "keywords": [
+      "중종",
+      "궁중",
+      "의녀",
+      "장금",
+      "조선 중기"
+    ],
+    "context": "중종 시대 궁중을 배경으로 여성 의료인 장금의 이야기를 펼친다.",
+    "note": "실록 속 장금의 기록은 제한적이며 드라마의 생애 서사는 창작이다.",
+    "posterUrl": "https://pictures.betaseries.com/fonds/poster/c40df3b80a7eddf4bb3dfb22c987a9b0.jpg",
+    "posterSourceUrl": "https://www.betaseries.com/es/show/dae-jang-geum",
+    "posterSourceName": "BetaSeries",
+    "synopsis": "궁중에서 의술을 익힌 장금이 의녀로 활동하며 중종의 병을 살피고, 궁중의 정치적 갈등에 휘말리는 과정을 그린다.",
+    "mainCharacters": [
+      {
+        "name": "서장금",
+        "role": "궁녀 출신 의녀"
+      },
+      {
+        "name": "중종",
+        "role": "조선 제11대 왕"
+      },
+      {
+        "name": "민정호",
+        "role": "장금을 돕는 문신으로 설정된 인물"
+      },
+      {
+        "name": "최금영",
+        "role": "궁중 경쟁자로 그려지는 인물"
+      }
+    ],
+    "historyConnection": "실존 인물과 창작 서사 혼합",
+    "comparisonNote": "실존 인물·사건이 등장하지만, 중심 인물 관계나 사건의 동기·대화는 창작일 수 있다. 기록으로 확인되는 사실만 오른쪽 사료 설명에 표시한다.",
+    "storyAnchor": "대장금"
+  },
+  {
+    "title": "허준",
+    "period": "조선 선조 시대",
+    "range": "16세기 말~17세기 초",
+    "keywords": [
+      "선조",
+      "허준",
+      "동의보감",
+      "임진왜란",
+      "조선 중기"
+    ],
+    "context": "선조 대의 의관 허준과 임진왜란 전후의 시대를 배경으로 한다.",
+    "note": "인물의 성장 과정과 관계는 기록과 다른 극적 구성이 있다.",
+    "posterUrl": "https://image.tmdb.org/t/p/original/4aLYEctusDCVySN67IVfCkaErn7.jpg",
+    "posterSourceUrl": "https://www.themoviedb.org/tv/5717-hur-jun/images/posters?language=ko-KR",
+    "posterSourceName": "TMDB",
+    "synopsis": "의관 허준이 의술을 익혀 선조의 어의가 되고 의서를 편찬하는 과정을 그린다.",
+    "mainCharacters": [
+      {
+        "name": "허준",
+        "role": "조선의 의관·의서 편찬자"
+      },
+      {
+        "name": "선조",
+        "role": "조선 제14대 왕"
+      },
+      {
+        "name": "유의태",
+        "role": "스승으로 설정된 인물"
+      },
+      {
+        "name": "예진",
+        "role": "의녀로 설정된 인물"
+      }
+    ],
+    "historyConnection": "실존 인물·사건 중심",
+    "comparisonNote": "실존 인물과 사건을 중심으로 하지만, 사적 대화·감정·사건의 세부 순서는 기록과 드라마를 대조해야 한다.",
+    "storyAnchor": "허준"
+  },
+  {
+    "title": "불멸의 이순신",
+    "period": "조선 선조 시대, 임진왜란",
+    "range": "16세기 말",
+    "keywords": [
+      "임진왜란",
+      "이순신",
+      "선조",
+      "조선 중기",
+      "전쟁"
+    ],
+    "context": "임진왜란과 이순신의 해전·지휘를 중심으로 한다.",
+    "note": "전투의 큰 흐름과 개별 대사·갈등 장면을 구분해야 한다.",
+    "posterUrl": "https://images.justwatch.com/poster/178550230/s718/bulmyeolyi-isunsin.jpg",
+    "posterSourceUrl": "https://www.justwatch.com/kr/TV-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8/bulmyeolyi-isunsin",
+    "posterSourceName": "JustWatch",
+    "synopsis": "이순신의 생애와 임진왜란의 해전을 중심으로 조선 수군의 전투와 전쟁의 전개를 그린다.",
+    "mainCharacters": [
+      {
+        "name": "이순신",
+        "role": "조선 수군의 지휘관"
+      },
+      {
+        "name": "선조",
+        "role": "조선 제14대 왕"
+      },
+      {
+        "name": "원균",
+        "role": "조선 수군의 장수"
+      },
+      {
+        "name": "류성룡",
+        "role": "전란을 기록한 문신"
+      }
+    ],
+    "historyConnection": "실존 인물·사건 중심",
+    "comparisonNote": "실존 인물과 사건을 중심으로 하지만, 사적 대화·감정·사건의 세부 순서는 기록과 드라마를 대조해야 한다.",
+    "storyAnchor": "불멸의 이순신"
+  },
+  {
+    "title": "징비록",
+    "period": "조선 선조 시대, 임진왜란",
+    "range": "16세기 말",
+    "keywords": [
+      "임진왜란",
+      "류성룡",
+      "선조",
+      "조선 중기",
+      "전쟁"
+    ],
+    "context": "임진왜란 시기 조정의 대응과 류성룡의 경험을 중심으로 한다.",
+    "note": "사료와 원작의 서술, 드라마의 재구성을 비교해 읽어야 한다.",
+    "posterUrl": "https://images.khan.co.kr/article/2015/02/03/l_2015020302000156100032111.jpg",
+    "posterSourceUrl": "https://sports.khan.co.kr/article/201502031521433",
+    "posterSourceName": "스포츠경향",
+    "synopsis": "임진왜란을 겪은 류성룡의 시선으로 전쟁 전 조정의 대응과 전쟁의 전개, 전후 반성을 그린다.",
+    "mainCharacters": [
+      {
+        "name": "류성룡",
+        "role": "영의정·전란 기록자"
+      },
+      {
+        "name": "선조",
+        "role": "조선 제14대 왕"
+      },
+      {
+        "name": "이순신",
+        "role": "조선 수군의 지휘관"
+      },
+      {
+        "name": "권율",
+        "role": "조선의 장수"
+      }
+    ],
+    "historyConnection": "실존 인물·사건 중심",
+    "comparisonNote": "실존 인물과 사건을 중심으로 하지만, 사적 대화·감정·사건의 세부 순서는 기록과 드라마를 대조해야 한다.",
+    "storyAnchor": "불멸의 이순신",
+    "posterFallbackUrls": []
+  },
+  {
+    "title": "동이",
+    "period": "조선 숙종 시대",
+    "range": "17세기 말~18세기 초",
+    "keywords": [
+      "숙종",
+      "숙빈 최씨",
+      "장희빈",
+      "인현왕후",
+      "조선 후기"
+    ],
+    "context": "숙종 대의 궁중과 숙빈 최씨를 중심으로 한 이야기를 다룬다.",
+    "note": "숙빈 최씨의 어린 시절 등 기록이 적은 부분은 창작이 많다.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/aJ7FAsHW8M1iNp6CGggfNxOTaiG.jpg",
+    "posterSourceUrl": "https://www.themoviedb.org/tv/38852/images/posters?language=ko-KR",
+    "posterSourceName": "TMDB",
+    "synopsis": "동이가 숙종 대 궁중에서 활동해 숙빈 최씨가 되고, 훗날 영조가 되는 연잉군을 낳기까지를 그린다.",
+    "mainCharacters": [
+      {
+        "name": "동이(숙빈 최씨)",
+        "role": "숙종의 후궁·영조의 생모"
+      },
+      {
+        "name": "숙종",
+        "role": "조선 제19대 왕"
+      },
+      {
+        "name": "장희빈",
+        "role": "숙종의 후궁이자 왕비였던 장옥정"
+      },
+      {
+        "name": "연잉군",
+        "role": "훗날의 영조"
+      }
+    ],
+    "historyConnection": "실존 인물과 창작 서사 혼합",
+    "comparisonNote": "실존 인물·사건이 등장하지만, 중심 인물 관계나 사건의 동기·대화는 창작일 수 있다. 기록으로 확인되는 사실만 오른쪽 사료 설명에 표시한다.",
+    "storyAnchor": "동이"
+  },
+  {
+    "title": "장옥정, 사랑에 살다",
+    "period": "조선 숙종 시대",
+    "range": "17세기 말",
+    "keywords": [
+      "숙종",
+      "장희빈",
+      "인현왕후",
+      "조선 후기"
+    ],
+    "context": "숙종 시대의 장희빈을 중심으로 궁중 인물 관계를 재해석한다.",
+    "note": "인물의 감정과 직업 설정 등은 극적 해석이다.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/k5v0hlcAonwFutwDM8vEkZHWwKv.jpg",
+    "posterSourceUrl": "https://www.themoviedb.org/tv/47322/images/posters?language=ko-KR",
+    "posterSourceName": "TMDB",
+    "synopsis": "장옥정과 숙종의 관계를 중심으로 장옥정의 왕비 책봉과 폐위, 숙종 대 궁중 정쟁을 재구성한다.",
+    "mainCharacters": [
+      {
+        "name": "장옥정(희빈 장씨)",
+        "role": "숙종의 후궁이자 왕비였던 인물"
+      },
+      {
+        "name": "숙종",
+        "role": "조선 제19대 왕"
+      },
+      {
+        "name": "인현왕후",
+        "role": "숙종의 계비"
+      },
+      {
+        "name": "최숙빈",
+        "role": "숙종의 후궁"
+      }
+    ],
+    "historyConnection": "실존 인물과 창작 서사 혼합",
+    "comparisonNote": "실존 인물·사건이 등장하지만, 중심 인물 관계나 사건의 동기·대화는 창작일 수 있다. 기록으로 확인되는 사실만 오른쪽 사료 설명에 표시한다.",
+    "storyAnchor": "동이"
+  },
+  {
+    "title": "이산",
+    "period": "조선 정조 시대",
+    "range": "18세기 후반",
+    "keywords": [
+      "정조",
+      "사도세자",
+      "조선 후기",
+      "개혁"
+    ],
+    "context": "정조의 즉위와 통치, 조선 후기의 정치 변화를 배경으로 한다.",
+    "note": "정조의 사적 관계와 사건 전개에는 극적 구성이 있다.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BZDkzM2VhMjktOTJiMS00MjEyLWI2NGYtZjJjZGZhYWRlOGQ0XkEyXkFqcGc%40._V1_.jpg",
+    "posterSourceUrl": "https://www.imdb.com/title/tt1676673/mediaviewer/rm2164660480/",
+    "posterSourceName": "IMDb",
+    "synopsis": "사도세자의 아들 이산이 정조로 즉위해 개혁 정치를 추진하는 과정을 궁중 인물들의 관계와 함께 그린다.",
+    "mainCharacters": [
+      {
+        "name": "이산(정조)",
+        "role": "조선 제22대 왕"
+      },
+      {
+        "name": "송연",
+        "role": "궁중 화원으로 설정된 창작 인물"
+      },
+      {
+        "name": "박대수",
+        "role": "무관으로 설정된 창작 인물"
+      },
+      {
+        "name": "영조",
+        "role": "조선 제21대 왕"
+      }
+    ],
+    "historyConnection": "실존 인물·사건 중심",
+    "comparisonNote": "실존 인물과 사건을 중심으로 하지만, 사적 대화·감정·사건의 세부 순서는 기록과 드라마를 대조해야 한다.",
+    "storyAnchor": "이산"
+  },
+  {
+    "title": "옷소매 붉은 끝동",
+    "period": "조선 정조 시대",
+    "range": "18세기 후반",
+    "keywords": [
+      "정조",
+      "의빈 성씨",
+      "조선 후기",
+      "궁중"
+    ],
+    "context": "정조와 의빈 성씨의 관계를 중심으로 조선 후기 궁중을 그린다.",
+    "note": "기록에 남은 인물 관계와 드라마의 대사·심리는 구분해야 한다.",
+    "posterUrl": "https://m.mbcplus.com/upload/program/20211102/20211102113609566026.jpg",
+    "posterSourceUrl": "https://m.mbcplus.com/web/program/contentList.do?channelSeq=&pageIndex=1&programInfoSeq=214&state=Y",
+    "posterSourceName": "MBC",
+    "synopsis": "궁녀 성덕임과 왕세손 이산의 만남을 시작으로, 정조의 즉위와 의빈 성씨의 삶을 그린다.",
+    "mainCharacters": [
+      {
+        "name": "성덕임(의빈 성씨)",
+        "role": "궁녀 출신 정조의 후궁"
+      },
+      {
+        "name": "이산(정조)",
+        "role": "조선 제22대 왕"
+      },
+      {
+        "name": "홍덕로",
+        "role": "정조를 보좌한 문신으로 그려지는 인물"
+      }
+    ],
+    "historyConnection": "실존 인물과 창작 서사 혼합",
+    "comparisonNote": "실존 인물·사건이 등장하지만, 중심 인물 관계나 사건의 동기·대화는 창작일 수 있다. 기록으로 확인되는 사실만 오른쪽 사료 설명에 표시한다.",
+    "storyAnchor": "이산"
+  },
+  {
+    "title": "녹두꽃",
+    "period": "동학농민운동",
+    "range": "19세기 말",
+    "keywords": [
+      "동학",
+      "동학농민운동",
+      "전봉준",
+      "조선 말기",
+      "개항기"
+    ],
+    "context": "1894년 동학농민운동을 배경으로 민중의 경험을 그린다.",
+    "note": "중심 가상 인물의 행적을 실제 역사 인물의 기록과 혼동하지 않아야 한다.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/4YGEVSzW6a2zl8ehibbNLCpFJ32.jpg",
+    "posterSourceUrl": "https://www.themoviedb.org/tv/88398/images/posters?language=ko-KR",
+    "posterSourceName": "TMDB",
+    "synopsis": "1894년 동학농민운동을 배경으로 백이강·백이현 형제와 송자인의 선택을 그린다. 주인공 형제는 창작 인물이다.",
+    "mainCharacters": [
+      {
+        "name": "백이강",
+        "role": "백가의 얼자이자 창작 인물"
+      },
+      {
+        "name": "백이현",
+        "role": "백가의 적자이자 창작 인물"
+      },
+      {
+        "name": "송자인",
+        "role": "상인 집안의 창작 인물"
+      },
+      {
+        "name": "전봉준",
+        "role": "동학농민군 지도자"
+      }
+    ],
+    "historyConnection": "실존 인물·사건 중심",
+    "comparisonNote": "실존 인물과 사건을 중심으로 하지만, 사적 대화·감정·사건의 세부 순서는 기록과 드라마를 대조해야 한다.",
+    "storyAnchor": "녹두꽃"
+  },
+  {
+    "title": "미스터 션샤인",
+    "period": "대한제국과 의병 활동",
+    "range": "19세기 말~20세기 초",
+    "keywords": [
+      "대한제국",
+      "의병",
+      "개항기",
+      "일제 침략",
+      "구한말"
+    ],
+    "context": "대한제국 시기 외세의 압력과 의병 활동을 배경으로 한다.",
+    "note": "주요 주인공과 개별 사건은 허구이며 당시 역사를 이해하는 단서로 읽어야 한다.",
+    "posterUrl": "https://a.ksd-i.com/a/2018-07-06/107151-631498.jpg",
+    "posterSourceUrl": "https://www.koreastardaily.com/sc/news/107151",
+    "posterSourceName": "KoreaStarDaily",
+    "synopsis": "미국으로 건너갔다 돌아온 유진 초이와 의병 활동에 참여하는 고애신, 주변 인물들의 관계를 통해 대한제국기의 격변을 그린다.",
+    "mainCharacters": [
+      {
+        "name": "유진 초이",
+        "role": "미군 장교로 돌아온 창작 인물"
+      },
+      {
+        "name": "고애신",
+        "role": "의병 활동에 참여하는 창작 인물"
+      },
+      {
+        "name": "구동매",
+        "role": "무신회 낭인으로 설정된 창작 인물"
+      },
+      {
+        "name": "쿠도 히나",
+        "role": "호텔 사장으로 설정된 창작 인물"
+      }
+    ],
+    "historyConnection": "시대 배경 참고",
+    "comparisonNote": "작품의 주인공은 창작 인물이다. 아래 기록은 시대 배경을 위한 자료이며 작품 속 에피소드가 실제였다는 증거가 아니다.",
+    "storyAnchor": "미스터 션샤인"
+  },
+  {
+    "title": "조선 총잡이",
+    "period": "조선 말 개화기",
+    "range": "19세기 후반",
+    "keywords": [
+      "개화기",
+      "조선 말기",
+      "개항기",
+      "근대화"
+    ],
+    "context": "조선 말 개화기의 변화와 신구 질서의 충돌을 배경으로 한다.",
+    "note": "복수극의 사건과 인물은 드라마의 창작이다.",
+    "posterUrl": "https://img.sbs.co.kr/newsnet/etv/upload/2014/06/10/30000386444_700.jpg",
+    "posterSourceUrl": "https://ent.sbs.co.kr/m/article.do?article_id=E10005414165",
+    "posterSourceName": "SBS",
+    "synopsis": "개화기 조선에서 아버지를 잃은 박윤강이 총잡이가 되어 복수를 꿈꾸고, 신문물의 유입으로 달라지는 시대와 마주하는 과정을 그린다.",
+    "mainCharacters": [
+      {
+        "name": "박윤강",
+        "role": "총잡이가 되는 창작 인물"
+      },
+      {
+        "name": "정수인",
+        "role": "신식 문물에 관심을 둔 창작 인물"
+      },
+      {
+        "name": "최원신",
+        "role": "정치적 권력자로 그려지는 인물"
+      }
+    ],
+    "historyConnection": "시대 배경 참고",
+    "comparisonNote": "작품의 주인공은 창작 인물이다. 아래 기록은 시대 배경을 위한 자료이며 작품 속 에피소드가 실제였다는 증거가 아니다.",
+    "storyAnchor": "조선 총잡이"
+  }
+]

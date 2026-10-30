@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="한국 사극의 재구성과 역사 기록을 한 장면씩 비교합니다." />
+  <title>드라마 배경 확인 — 사극의 뒤편</title>
+  <link rel="stylesheet" href="./styles.css?v=20261030voice1" />
+    <script defer src="./grid-scan.js?v=20261030g"></script>
+  <script defer src="./voice-config.js"></script>
+  <script defer src="./static-data.js"></script>
+  <script defer src="./story.js?v=20261030voice1"></script>
+  <script defer src="./motion.js?v=20261029v"></script>
+  <script defer src="./flux-lines.js?v=20261029v"></script>
+  <script defer src="./soda-atmosphere.js?v=20261029v"></script>
+  <script defer src="./swarm-cursor.js?v=20261029v2"></script>
+</head>
+<body class="page-story">
+  <a class="skip-link" href="#main-content">본문으로 건너뛰기</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="./index.html" aria-label="사극의 뒤편, 첫 화면으로"><span class="brand-seal" aria-hidden="true">史</span><span class="brand-words"><strong>사극의 뒤편</strong></span></a>
+      <nav class="desktop-nav" aria-label="주 메뉴">
+        <a href="./index.html" data-page="home">홈</a>
+        <a href="./drama.html" data-page="drama" aria-current="page">드라마 배경 확인</a>
+        <a href="./recommend.html" data-page="recommend">시대별 작품 추천</a>
+      </nav>
+      <details class="mobile-menu"><summary aria-label="메뉴 열기">메뉴 <span aria-hidden="true">☰</span></summary><nav aria-label="모바일 메뉴">
+        <a href="./index.html">홈</a><a href="./drama.html" aria-current="page">드라마 배경 확인</a><a href="./recommend.html">시대별 작품 추천</a>
+      </nav></details>
+    </header>
+    <main id="main-content" class="drama-study-main">
+      <section class="drama-search-strip" aria-label="드라마 검색">
+        <form class="story-search" action="./story.html" method="get"><label for="story-title-input">드라마 제목</label><div><input id="story-title-input" name="title" type="text" minlength="2" maxlength="80" required placeholder="작품을 검색하세요 · 예: 주몽" autocomplete="off" /><button type="submit" aria-label="드라마 검색">↗</button></div></form>
+        <p id="story-status" class="story-status" role="status" aria-live="polite" hidden></p>
+      </section>
+      <section id="story-content" class="story-content" hidden>
+        <div id="story-overview-card" class="story-overview-flip" tabindex="0" role="group" aria-label="포스터와 작품 요약. 눌러 드라마와 기록 비교 보기">
+          <div class="story-overview-rotor">
+            <section class="story-overview story-overview-front" aria-labelledby="story-title" aria-hidden="false">
+              <div class="story-poster-wrap">
+                <figure id="story-poster-card" class="story-poster-card">
+                  <div class="story-poster-card-body"><div id="story-poster-cover" class="story-poster-cover">
+                    <div id="story-poster-fallback" class="story-poster-fallback" aria-hidden="true"><span>史</span><small>한국 사극</small><b></b></div>
+                    <img id="story-poster-image" alt="" hidden />
+                  </div></div>
+                  <figcaption id="story-poster-caption"></figcaption>
+                  <a id="story-poster-credit" class="story-poster-credit" target="_blank" rel="noopener noreferrer" hidden>포스터 출처 ↗</a>
+                </figure>
+              </div>
+              <div class="story-overview-copy">
+                <p class="section-kicker">드라마 배경 확인</p>
+                <h1 id="story-title"></h1>
+                <p id="story-period" class="story-period"></p>
+                <ul id="story-quick-lines" class="story-quick-lines" aria-label="작품과 역사 배경 요약"></ul>
+              </div>
+              <small class="story-overview-flip-hint">눌러서 드라마와 기록 비교하기 <span aria-hidden="true">↗</span></small>
+            </section>
+            <section class="story-overview-face story-overview-back" aria-labelledby="story-comparison-title" aria-hidden="true" inert>
+              <header class="story-overview-back-heading">
+                <div><p class="section-kicker">드라마 ↔ 기록</p><h2 id="story-comparison-title"><span id="story-slide-title"></span></h2></div>
+                <span class="story-comparison-count"><span id="story-slide-date"></span><i>·</i><strong id="chapter-current">01</strong><i>/</i><span id="chapter-total">03</span></span>
+              </header>
+              <div id="story-depth-carousel" class="story-depth-carousel" tabindex="0" role="group" aria-roledescription="carousel" aria-label="사건별 드라마와 기록 비교">
+                <div id="story-depth-stage" class="story-depth-stage"></div>
+              </div>
+              <small class="story-overview-flip-hint">눌러서 작품 요약으로 돌아가기 <span aria-hidden="true">↶</span></small>
+            </section>
+          </div>
+        </div>
+        <nav id="story-chapter-controls" class="story-chapter-controls" aria-label="비교할 사건 선택" hidden>
+            <button id="chapter-prev" type="button" aria-label="이전 사건">←</button>
+            <div id="chapter-nav" class="story-chapter-dots"></div>
+            <button id="chapter-next" type="button" aria-label="다음 사건">→</button>
+        </nav>
+      </section>
+      <section id="story-empty" class="story-empty" hidden><p>검색 결과가 없습니다.</p><a href="./drama.html">다시 검색 ↗</a></section>
+    </main>
+  </div>
+  <div id="story-loader" class="story-loader" hidden aria-live="polite" aria-label="역사 기록 검색 중">
+    <canvas id="story-loader-canvas" class="grid-scan-canvas" aria-hidden="true"></canvas>
+    <div class="story-loader-copy"><span>기록을 펼치는 중</span></div>
+  </div>
+</body>
+</html>
